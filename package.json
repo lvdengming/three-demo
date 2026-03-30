@@ -1,0 +1,17 @@
+{
+  "name": "three-demo",
+  "version": "0.0.1",
+  "description": "A demo project for three.js",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [
+    "demo",
+    "three",
+    "threejs"
+  ],
+  "author": "lvdengming@foxmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "three": "^0.183.2"
+  }
+}
