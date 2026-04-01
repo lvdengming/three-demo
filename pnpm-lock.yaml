@@ -11,12 +11,36 @@ importers:
       three:
         specifier: ^0.183.2
         version: 0.183.2
+    devDependencies:
+      prettier:
+        specifier: ^3.8.1
+        version: 3.8.1
+      prettier-plugin-package:
+        specifier: ^2.0.0
+        version: 2.0.0(prettier@3.8.1)
 
 packages:
+
+  prettier-plugin-package@2.0.0:
+    resolution: {integrity: sha512-d7v5sEUf9AIBYmsjn6kzy9xugvoutgk+pdt1/l3opACE5uHS30LzApezcoHYqDJtvcSPj8SCY/50WIiVYmH3+Q==}
+    engines: {node: '>=20.19.0'}
+    peerDependencies:
+      prettier: ^3.0.0
+
+  prettier@3.8.1:
+    resolution: {integrity: sha512-UOnG6LftzbdaHZcKoPFtOcCKztrQ57WkHDeRD9t/PTQtmT0NHSeWWepj6pS0z/N7+08BHFDQVUrfmfMRcZwbMg==}
+    engines: {node: '>=14'}
+    hasBin: true
 
   three@0.183.2:
     resolution: {integrity: sha512-di3BsL2FEQ1PA7Hcvn4fyJOlxRRgFYBpMTcyOgkwJIaDOdJMebEFPA+t98EvjuljDx4hNulAGwF6KIjtwI5jgQ==}
 
 snapshots:
+
+  prettier-plugin-package@2.0.0(prettier@3.8.1):
+    dependencies:
+      prettier: 3.8.1
+
+  prettier@3.8.1: {}
 
   three@0.183.2: {}

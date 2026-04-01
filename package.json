@@ -2,6 +2,8 @@
   "name": "three-demo",
   "version": "0.0.1",
   "description": "A demo project for three.js",
+  "license": "MIT",
+  "author": "lvdengming@foxmail.com",
   "main": "index.js",
   "scripts": {},
   "keywords": [
@@ -9,9 +11,20 @@
     "three",
     "threejs"
   ],
-  "author": "lvdengming@foxmail.com",
-  "license": "ISC",
   "dependencies": {
     "three": "^0.183.2"
+  },
+  "devDependencies": {
+    "prettier": "^3.8.1",
+    "prettier-plugin-package": "^2.0.0"
+  },
+  "prettier": {
+    "printWidth": 80,
+    "tabWidth": 2,
+    "trailingComma": "all",
+    "singleQuote": true,
+    "plugins": [
+      "prettier-plugin-package"
+    ]
   }
 }

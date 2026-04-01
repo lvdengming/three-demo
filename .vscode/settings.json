@@ -1,3 +1,15 @@
 {
-  "cSpell.ignoreWords": ["threejs", "importmap"]
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit"
+  },
+  "cSpell.ignoreWords": [
+    "threejs",
+    "importmap",
+    "skyblue",
+    "darkslategrey",
+    "resizer"
+  ]
 }
